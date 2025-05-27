@@ -5,6 +5,7 @@ description = "Add your description here"
 requires-python = ">=3.7"
 dependencies = [
     "pyqt5>=5.15.10",
+    "ultralytics>=8.0.145",
 ]
 [tool.uv]
 constraint-dependencies = ["pyqt5-qt5 <=5.15.2"]
