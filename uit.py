@@ -157,7 +157,3 @@ class Ui_MainWindow(object):
         self.label_2.setText(_translate("MainWindow", "ROC曲线"))
         self.tabWidget.setTabText(self.tabWidget.indexOf(self.tab_5), _translate("MainWindow", "模型评价"))
         self.tabWidget.setTabText(self.tabWidget.indexOf(self.tab), _translate("MainWindow", "日志"))
-if __name__ == "__main__":
-    window = MainWindow()
-    window.show()
-    app.exec_()
