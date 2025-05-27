@@ -1,0 +1,10 @@
+[project]
+name = "pyqt"
+version = "0.1.0"
+description = "Add your description here"
+requires-python = ">=3.7"
+dependencies = [
+    "pyqt5>=5.15.10",
+]
+[tool.uv]
+constraint-dependencies = ["pyqt5-qt5 <=5.15.2"]
